@@ -60,6 +60,8 @@
 					<?php printf( esc_html__( 'WordPress Theme', 'square' ) ); ?>
 					<span class="sep"> | </span>
 					<?php printf( esc_html__( '%1$s by %2$s', 'square' ), 'Square', '<a href="http://hashthemes.com" rel="designer">Hash Themes</a>' ); ?>
+                    <span class="sep"> | </span>
+                    <a target="_blank" href="http://danmarklagman.me.pn" rel="designer">Dark Synthesis</a>
 				</div>
 
 				<div class="sq-site-social">

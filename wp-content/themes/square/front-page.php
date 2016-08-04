@@ -52,7 +52,10 @@ get_header();
 	</div>
 	<div class="sq-banner-shadow"><img src="<?php echo get_template_directory_uri() ?>/images/banner-shadow.png"></div>
 </section>
-
+<section class="danl-tagline">
+    <h2>Our passion is to provide</h2>
+    <h2>Excellent and luxurious indoor and outdoor spaces</h2>
+</section>
 <section id="sq-featured-post-section" class="sq-section">
 	<div class="sq-container">
 		<div class="sq-featured-post-wrap sq-clearfix">
@@ -97,7 +100,10 @@ get_header();
 		</div>
 	</div>
 </section>
-
+<section class="danl-tagline">
+    <h2>We offer outstanding design and quality</h2>
+</section>
+<br><br>
 <?php 
 $square_disable_about_sec = get_theme_mod('square_disable_about_sec');
 if(!$square_disable_about_sec){

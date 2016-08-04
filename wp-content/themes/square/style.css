@@ -816,7 +816,7 @@ a:active {
 	margin-top: 8px;
 	height: 1px;
 	width: 40px;
-	background: #5bc2ce;
+	background: #942A6E;
 }
 
 .widget-area .widget-title:after{
@@ -827,7 +827,7 @@ a:active {
 	margin-top: 12px;
 	height: 1px;
 	width: 20px;
-	background: #5bc2ce;
+	background: #942A6E;
 }
 
 .widget-area ul{
@@ -1175,7 +1175,8 @@ object {
 	position: absolute;
 	height: 2px;
 	width: 25px;
-	background: #5bc2ce;
+	/*background: #5bc2ce;*/
+        background: rgb(148, 42, 110);
 	top: 100%;
 	left: 0;
 	margin-top:10px;
@@ -1223,7 +1224,8 @@ object {
 .sq-main-header{
 	background-color: #CCC;
 	background-repeat: no-repeat;
-	background-position: top center; 
+	background-position: center center; 
+        background-size: cover;
 	padding: 137px 0 65px;
 	margin-bottom: 25px;
 }
@@ -1405,7 +1407,7 @@ object {
 }
 
 .sq-main-navigation ul ul li:hover > a{
-	background: #5bc2ce;
+	background: #942A6E;
 	color: #FFF;
 }
 
@@ -1453,8 +1455,8 @@ object {
 	-ms-transform: translateY(-50%); 
    	-webkit-transform: translateY(-50%); 
     transform: translateY(-50%);
-    border-left: 3px solid #5BC2CE;
-    border-right: 3px solid #5BC2CE;
+    border-left: 3px solid #942A6E;
+    border-right: 3px solid #942A6E;
 }
 
 .sq-slide-cap-title{
@@ -1481,7 +1483,8 @@ object {
 
 #sq-home-slider-section .bx-wrapper .bx-controls-direction a{
 	margin-top: 0;
-	background: #5bc2ce;
+	/*background: #5bc2ce;*/
+        background: rgb(148, 42, 110);
 	top: auto;
 	bottom: 25px;
 	height: 40px;
@@ -1552,7 +1555,8 @@ object {
 	position: absolute;
 	height: 2px;
 	width: 25px;
-	background: #5bc2ce;
+	/*background: #5bc2ce;*/
+        background: rgb(148, 42, 110);
 	top: 100%;
 	left: 0;
 	margin-top:10px;
@@ -1684,7 +1688,8 @@ object {
 	right:0;
 	height: 100%;
 	width: 5px;
-	background: #5bc2ce;
+	/*background: #5bc2ce;*/
+        background: rgb(148, 42, 110);
 	top: 0;
 	margin-right: -33px;
 }
@@ -2815,4 +2820,10 @@ object {
 	#sq-site-navigation{
 		display: block !important;
 	}
+}
+
+.danl-tagline {
+    text-align: center;
+    background: #e0e0e0;
+    padding: 40px 0px 30px 0px;
 }
