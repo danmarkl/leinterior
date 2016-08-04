@@ -13,7 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monsieur+La+Doulaise" />
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <?php wp_head(); ?>
 </head>
 

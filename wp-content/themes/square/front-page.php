@@ -53,8 +53,10 @@ get_header();
 	<div class="sq-banner-shadow"><img src="<?php echo get_template_directory_uri() ?>/images/banner-shadow.png"></div>
 </section>
 <section class="danl-tagline">
-    <h2>Our passion is to provide</h2>
-    <h2>Excellent and luxurious indoor and outdoor spaces</h2>
+	<h2>Our <span class="mona-font">passion</span></h2>
+	<h2 style="margin-left:60px;margin-top:-25px;">is to provide</h2>
+	<h2 style="margin-top:-25px;"><span class="mona-font">Excellent</span> and <span class="mona-font">luxurious</span></h2>
+    <h2 style="margin-top:-20px;margin-left:50px;">indoor and outdoor spaces</h2>
 </section>
 <section id="sq-featured-post-section" class="sq-section">
 	<div class="sq-container">
@@ -101,7 +103,10 @@ get_header();
 	</div>
 </section>
 <section class="danl-tagline">
-    <h2>We offer outstanding design and quality</h2>
+	<h2>We offer</h2>
+	<h2 class="mona-font" style="margin-top:-30px;margin-bottom:2px;">outstanding design</h2>
+    <h2>and</h2>
+    <h2 class="mona-font" style="margin-top: -40px;">quality</h2>
 </section>
 <br><br>
 <?php 
@@ -149,6 +154,7 @@ if(!$square_disable_about_sec){
 		<?php } ?>
 	</div>
 </section>
+
 <?php } 
 
 $square_disable_tab_sec = get_theme_mod('square_disable_tab_sec');
@@ -205,8 +211,70 @@ if(!$square_disable_tab_sec){
 		</div>
 	</div>
 </section>
-<?php }
+<?php } ?>
 
+<!--danl-added-->
+<section id="sq-about-us-section" class="sq-section">
+	<div class="sq-container sq-clearfix">
+		<div class="sq-about-sec">
+			<h2 class="sq-section-title">Our Projects</h2>
+			<div class="sq-content">
+				<div class="danl-content-push-left">
+					<p>We seek 100% satisfaction from our clients.</p>
+					<a href="#" class="danl-generic-button">Check all our projects</a>
+				</div>
+				<div class="danl-content-push-left-only">
+				<?php
+					if ( function_exists( 'soliloquy' ) ) { soliloquy( 'projects2', 'slug' ); }
+				?>
+				</div>
+				<div style="danl-clearfix"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="sq-about-us-section" class="sq-section">
+	<div class="sq-container sq-clearfix">
+		<div class="sq-about-sec">
+			<h2 class="sq-section-title">Our Products</h2>
+			<div class="sq-content">
+				<div class="danl-content-push-left">
+					<p>With a vast range of products,</p>
+					<p>we aim to provide selections that fits your taste and space.</p>
+					<br>
+					<h3 class="mona-font">We provide:</h3>
+					<p>wallpaper supply and installation, artisanal stitching of curtains, manual and motorised roller blinds, custom made furniture and carpets and more!</p>
+					<p>Tell us what you want!</p>
+					<br><br>
+					<a href="#" class="danl-generic-button">Get in touch with us!</a>
+				</div>
+				<div class="danl-content-push-left-only">
+					<img src="http://localhost/leinterior/wp-content/uploads/2016/08/image-4_0.png" />
+				</div>
+				<div class="danl-clearfix"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="danl-tagline">
+    <h2 class="mona-font">Exquisite, outstanding, truly amazing</h2>
+</section>
+
+<section id="sq-about-us-section" class="sq-section">
+	<div class="sq-container sq-clearfix">
+		<div class="sq-about-sec">
+			<div class="sq-content" style="text-align: center;">
+				<br><br>
+				<img src="http://localhost/leinterior/wp-content/uploads/2016/08/tosca-new-2014-tosca-lounger-tosca-loungers.jpg" />
+			</div>
+		</div>
+	</div>
+</section>
+<!--danl-added-end-->
+
+<?php
 $square_disable_logo_sec = get_theme_mod('square_disable_logo_sec');
 if(!$square_disable_logo_sec){
 ?>

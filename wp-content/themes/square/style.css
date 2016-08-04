@@ -416,7 +416,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background: #5bc2ce;
+	/*background: #5bc2ce;*/
+	background: #6c154f;
 	padding: 0 20px;
 	color: #FFF;
 	border: 0;
@@ -1176,7 +1177,7 @@ object {
 	height: 2px;
 	width: 25px;
 	/*background: #5bc2ce;*/
-        background: rgb(148, 42, 110);
+    background: rgb(148, 42, 110);
 	top: 100%;
 	left: 0;
 	margin-top:10px;
@@ -1590,8 +1591,8 @@ object {
 	margin-bottom: 50px;
 }
 .sq-about-sec{
-	width: 60%;
-	float: left;
+	/*width: 60%;
+	float: left;*/
 }
 
 .sq-image-stack{
@@ -2826,4 +2827,73 @@ object {
     text-align: center;
     background: #e0e0e0;
     padding: 40px 0px 30px 0px;
+}
+
+.danl-partners-list {
+	text-align: center;
+}
+
+.danl-partners-list li {
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+.owl-carousel .owl-item img {
+	width: auto;
+}
+
+.danl-generic-button,
+.danl-generic-button:hover,
+.danl-generic-button:active
+.danl-generic-button:visited {
+	background: #942a6e;
+	padding: 10px 15px;
+	color: #fff;
+}
+.mona-font {
+	font-family: Monsieur La Doulaise;
+	font-size: 60px;
+}
+
+.dan-tagline .less-spacing {
+	margin: -10px 0;
+}
+
+.danl-content-push-left {
+	float: left; 
+	margin-right: 50px; 
+	width: 30%;
+}
+
+.danl-content-push-left-only {
+	float: left;
+}
+
+.danl-clearfix {
+	clear: both;
+}
+
+@media screen and (max-width: 1024px) {
+	.danl-content-push-left {
+		float: none;
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	.dan-content-push-left-only {
+		float: none;
+	}
+	#sq-about-us-section {
+		text-align: center;
+	}
+	.sq-section-title:after {
+		position: initial;
+	}
+	div[aria-live="polite"] {
+		margin: auto;
+	}
+}
+
+.theme #mailmunch-optin-form {
+	border: none !important;
 }
